@@ -22,20 +22,4 @@ This is a simple Markov text generator implemented in JavaScript. It takes input
 
 - **Event Listener:** The script adds an event listener to the "Generate" button. When clicked, it retrieves the input text, builds the Markov chain, generates new text, and updates the output area with the generated text.
 
-#### HTML and CSS
 
-Basic HTML and CSS are provided for the input form and output area. You can customize the styling as needed.
-
-#### Usage Example
-
-```html
-<!-- Example HTML usage -->
-<textarea id="inputText"></textarea>
-<button id="generateBtn">Generate</button>
-<div id="output"></div>
-<script src="js/markov-generator.js"></script>
-```
-
-#### Note
-
-- This is a basic implementation of a Markov text generator. The quality of the generated text depends on the quality and size of the input corpus. Adjustments and improvements can be made to enhance the generator's performance and output quality.
